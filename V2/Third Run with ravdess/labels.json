@@ -1,0 +1,18 @@
+{
+  "class_names": [
+    "disgusto",
+    "enojo",
+    "feliz",
+    "miedo",
+    "neutral",
+    "triste"
+  ],
+  "label2id": {
+    "disgusto": 0,
+    "enojo": 1,
+    "feliz": 2,
+    "miedo": 3,
+    "neutral": 4,
+    "triste": 5
+  }
+}

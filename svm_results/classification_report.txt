@@ -1,0 +1,16 @@
+              precision    recall  f1-score   support
+
+    disgusto     0.5992    0.6391    0.6185      1923
+       enojo     0.7316    0.7670    0.7489      1923
+       feliz     0.6029    0.5621    0.5818      1923
+       miedo     0.6350    0.6043    0.6192      1923
+     neutral     0.6426    0.6537    0.6481      1799
+      triste     0.6568    0.6469    0.6518      1923
+
+    accuracy                         0.6454     11414
+   macro avg     0.6447    0.6455    0.6447     11414
+weighted avg     0.6447    0.6454    0.6447     11414
+
+ACC_mean=0.6454±0.0070
+F1_macro_mean=0.6446±0.0072
+UAR_mean=0.6455±0.0070

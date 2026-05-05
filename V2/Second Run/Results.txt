@@ -1,0 +1,29 @@
+Validation — Loss: 0.9200 | Accuracy: 0.6790
+SAMPLE_RATE  = 16000
+Batch Size = 8
+
+Classification report:
+              precision    recall  f1-score   support
+
+    disgusto     0.7615    0.5723    0.6535       346
+       enojo     0.7593    0.7659    0.7626       346
+       feliz     0.6375    0.7370    0.6836       346
+       miedo     0.7314    0.5101    0.6010       347
+     neutral     0.6263    0.7547    0.6845       322
+      triste     0.6184    0.7399    0.6737       346
+
+    accuracy                         0.6790      2053
+   macro avg     0.6891    0.6800    0.6765      2053
+weighted avg     0.6898    0.6790    0.6764      2053
+
+Confusion matrix:
+ [[198  21  34   9  36  48]
+ [ 19 265  37   8  15   2]
+ [  7  34 255  22  23   5]
+ [ 12  20  56 177  20  62]
+ [ 13   5  12   8 243  41]
+ [ 11   4   6  18  51 256]]
+
+Saved model to: audio_cnn_model.keras
+Saved normalization stats: norm_stats.json
+Saved labels: labels.json

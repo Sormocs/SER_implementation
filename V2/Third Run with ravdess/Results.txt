@@ -1,0 +1,26 @@
+Evaluating on validation set...
+Validation — Loss: 0.9744 | Accuracy: 0.6583
+SAMPLE_RATE  = 16000
+Batch Size = 8
+
+Classification report:
+              precision    recall  f1-score   support
+
+    disgusto     0.6316    0.5922    0.6113       385
+       enojo     0.7738    0.7839    0.7788       384
+       feliz     0.6471    0.5714    0.6069       385
+       miedo     0.7184    0.5169    0.6012       385
+     neutral     0.5987    0.7417    0.6625       360
+      triste     0.6128    0.7500    0.6745       384
+
+    accuracy                         0.6583      2283
+   macro avg     0.6637    0.6593    0.6559      2283
+weighted avg     0.6644    0.6583    0.6557      2283
+
+Confusion matrix:
+ [[228  26  23  11  39  58]
+ [ 32 301  29   8  13   1]
+ [ 30  35 220  36  56   8]
+ [ 29  16  37 199  24  80]
+ [ 16  10  27   5 267  35]
+ [ 26   1   4  18  47 288]]

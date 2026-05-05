@@ -1,0 +1,12 @@
+              precision    recall  f1-score   support
+
+    disgusto     0.7097    0.7385    0.7238       566
+       enojo     0.8160    0.8763    0.8451       582
+       feliz     0.6963    0.7628    0.7280       565
+       miedo     0.7472    0.7034    0.7246       563
+     neutral     0.7744    0.7744    0.7744       532
+      triste     0.8053    0.6916    0.7441       616
+
+    accuracy                         0.7573      3424
+   macro avg     0.7581    0.7578    0.7567      3424
+weighted avg     0.7590    0.7573    0.7568      3424
